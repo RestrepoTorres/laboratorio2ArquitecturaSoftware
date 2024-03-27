@@ -13,7 +13,7 @@ class Laboratorio2ApplicationTests {
 
 	@Test
 	void health(){
-		assertEquals("APPLICACION FUNCIONANDO OK",dataController.healthCheck());
+		assertEquals("APPLICACION FUNCIONANDO OK del no",dataController.healthCheck());
 	}
 
 	@Test
