@@ -1,3 +1,11 @@
+ [![CI/CD Pipeline](https://github.com/restrepotorres/laboratorio2ArquitecturaSoftware/actions/workflows/build.yml/badge.svg)](https://github.com/restrepotorres/laboratorio2ArquitecturaSoftware/actions/workflows/build.yml)
+ [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=RestrepoTorres_laboratorio2ArquitecturaSoftware&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=RestrepoTorres_laboratorio2ArquitecturaSoftware)
+ [![Bugs](https://sonarcloud.io/api/project_badges/measure?project=RestrepoTorres_laboratorio2ArquitecturaSoftware&metric=bugs)](https://sonarcloud.io/summary/new_code?id=RestrepoTorres_laboratorio2ArquitecturaSoftware)
+ [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=RestrepoTorres_laboratorio2ArquitecturaSoftware&metric=coverage)](https://sonarcloud.io/summary/new_code?id=RestrepoTorres_laboratorio2ArquitecturaSoftware)
+ [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=RestrepoTorres_laboratorio2ArquitecturaSoftware&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=RestrepoTorres_laboratorio2ArquitecturaSoftware)
+ [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=RestrepoTorres_laboratorio2ArquitecturaSoftware&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=RestrepoTorres_laboratorio2ArquitecturaSoftware)
+ [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=RestrepoTorres_laboratorio2ArquitecturaSoftware&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=RestrepoTorres_laboratorio2ArquitecturaSoftware)
+ 
 # laboratorio2ArquitecturaSoftware
 
 ### Implementation of a Simple App with the next operations:
