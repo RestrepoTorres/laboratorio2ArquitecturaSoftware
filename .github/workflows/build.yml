@@ -122,7 +122,7 @@ jobs:
     needs: build
     runs-on: [aws-ec2]
     steps:
-      - name: pull image from docker hub
+      - name: docker pull image from docker hub
         run: docker pull ${{secrets.DOCKERUSERNAME}}/lab2:latest
       - name: Delete old container
         run: docker rm -f ${{secrets.DOCKERUSERNAME}}/lab2
