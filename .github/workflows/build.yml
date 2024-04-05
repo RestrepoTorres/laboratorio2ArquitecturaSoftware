@@ -88,6 +88,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v1
         with:
+          #distribution: 'temurin'
           java-version: '17'
       #Set up Maven cache
       - name: Cache Maven packages
@@ -109,3 +110,10 @@ jobs:
           name: artifact
           #From this path
           path: target/lab2-0.0.1-SNAPSHOT.jar
+     # push to docker
+      - name: docker login
+        run: -u ${{secrets.DOCKERUSERNAME}} -p ${{secrets.DOCKER}}
+      - name: build docker image
+        run: docker build -t ${{secrets.DOCKERUSERNAME}}/lab2 .
+      - name: Publish image to docker hub
+        run: docker push ${{secrets.DOCKERUSERNAME}}/lab2:latest
