@@ -117,3 +117,15 @@ jobs:
         run: docker build -t ${{secrets.DOCKERUSERNAME}}/lab2 .
       - name: Publish image to docker hub
         run: docker push ${{secrets.DOCKERUSERNAME}}/lab2:latest
+
+  deploy:
+    needs: build
+    runs-on: [aws-ec2]
+    steps:
+      - name: pull image from docker hub
+        run: docker pull ${{secrets.DOCKERUSERNAME}}/lab2:latest
+      - name: Delete old container
+        run: docker rm -f ${{secrets.DOCKERUSERNAME}}/lab2
+      - name: Run docker container
+        run: docker run -d -p 8080:8080 --name cicdLaboratorio21 ${{secrets.DOCKERUSERNAME}}/lab2
+
