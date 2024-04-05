@@ -112,7 +112,7 @@ jobs:
           path: target/lab2-0.0.1-SNAPSHOT.jar
      # push to docker
       - name: docker login
-        run: -u ${{secrets.DOCKERUSERNAME}} -p ${{secrets.DOCKER}}
+        run: docker login -u ${{secrets.DOCKERUSERNAME}} -p ${{secrets.DOCKER}}
       - name: build docker image
         run: docker build -t ${{secrets.DOCKERUSERNAME}}/lab2 .
       - name: Publish image to docker hub
