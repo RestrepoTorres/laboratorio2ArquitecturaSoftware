@@ -6,7 +6,7 @@
  [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=RestrepoTorres_laboratorio2ArquitecturaSoftware&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=RestrepoTorres_laboratorio2ArquitecturaSoftware)
  [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=RestrepoTorres_laboratorio2ArquitecturaSoftware&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=RestrepoTorres_laboratorio2ArquitecturaSoftware)
  
-# laboratorio2ArquitecturaSoftware
+# laboratorio 2 Arquitectura de Software
 
 ### Implementation of a Simple App with the next operations:
 
