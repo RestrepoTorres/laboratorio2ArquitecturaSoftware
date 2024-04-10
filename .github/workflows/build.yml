@@ -127,5 +127,5 @@ jobs:
       - name: Delete old container
         run: sudo docker rm -f cicdLaboratorio21
       - name: Run docker container
-        run: sudo docker run -d -p 8080:8080 --name cicdLaboratorio21 ${{secrets.DOCKERUSERNAME}}/lab2
+        run: sudo docker run -d -p 8080:8080 --restart unless-stopped --name cicdLaboratorio21 ${{secrets.DOCKERUSERNAME}}/lab2
 
